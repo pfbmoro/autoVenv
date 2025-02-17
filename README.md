@@ -28,33 +28,11 @@ This Bash script automates the process of setting up a Python virtual environmen
    ```sh
    ./setup_venv.sh
 4. **Follow the prompts:**
-  Enter the directory path where the project should be created (default: Users/paulo/WebDev/).
-  Enter the project folder name.
+  Enter the directory path where the project should be created (e.g.: Users/john/webdev/).
+  Enter the project folder name: e.g. my-app
 
 ## 🎯 Activation Instructions
    Mac/Linux: The script automatically activates the virtual environment.
-   
-   Windows: If you're using Git Bash or Command Prompt, activate manually with:
+      Windows: If you're using Git Bash or Command Prompt, activate manually with:
    ```sh
    venv\Scripts\activate
-
-**## 🛠️ Troubleshooting**
-"Command not found: python3"
-Ensure Python is installed. Run python3 --version to check. Install it from python.org if needed.
-
-"Permission denied" when running the script
-Try running:
-
-```sh
-chmod +x setup_venv.sh
-
-Then execute it again.
-
-**##🚀 Next Steps
-After setting up the virtual environment, you can start installing dependencies:
-
-```sh
-pip install -r requirements.txt
-Or begin coding inside your project folder.
-
-Enjoy coding!
