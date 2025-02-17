@@ -23,3 +23,8 @@ This Bash script automates the process of setting up a Python virtual environmen
 4. Follow the prompts:
   Enter the directory path where the project should be created (default: Users/paulo/WebDev/).
   Enter the project folder name.
+
+5. 🎯 Activation Instructions
+   Mac/Linux: The script automatically activates the virtual environment.
+   Windows: If you're using Git Bash or Command Prompt, activate manually with:
+   ```venv\Scripts\activate
