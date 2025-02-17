@@ -78,4 +78,3 @@ pip install -r requirements.txt
 Or begin coding inside your project folder.
 
 Enjoy coding! 🎉🔥
-```
